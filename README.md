@@ -16,15 +16,15 @@ helm upgrade --install --namespace kube-system --repo https://helm.cilium.io cil
 `
 
 
-## Bootrap
+## Bootstrap
 
-`
+```
 flux bootstrap github \
   --owner=$GITHUB_OWNER \
   --repository=$GITHUB_REPO \
   --branch=main \
   --path=./clusters/kind \
   --personal
-`
+```
 
 
