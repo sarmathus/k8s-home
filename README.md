@@ -1,6 +1,4 @@
-# k8s-home
-
-Home k8s on kind
+# Home k8s on kind
 
 
 ## Kind
@@ -18,7 +16,7 @@ helm upgrade --install --namespace kube-system \
 ```
 
 
-## Bootstrap
+## Deploy Flux with the rest
 
 ```
 export $GITHUB_TOKEN=<token>
