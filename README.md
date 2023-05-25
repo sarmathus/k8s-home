@@ -11,9 +11,11 @@ kind create cluster --config kind-config.yaml
 
 ## Cilium
 
-`
-helm upgrade --install --namespace kube-system --repo https://helm.cilium.io cilium cilium --values cillium-values.yaml
-`
+```
+helm upgrade --install --namespace kube-system \
+  --repo https://helm.cilium.io cilium cilium \
+  --values cilium-values.yaml
+```
 
 
 ## Bootstrap
